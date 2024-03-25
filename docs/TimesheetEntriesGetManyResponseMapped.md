@@ -1,0 +1,18 @@
+
+
+# TimesheetEntriesGetManyResponseMapped
+
+
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**status** | **String** | Status String |  |
+|**data** | [**List&lt;TimesheetEntryResponse&gt;**](TimesheetEntryResponse.md) | Resource data |  |
+|**total** | **Double** | Number of all resources |  |
+|**count** | **Double** | Number of received resources |  |
+|**offset** | **Double** | Offset amount of received resources |  [optional] |
+|**relations** | [**TimesheetEntryRelationsResponse**](TimesheetEntryRelationsResponse.md) | Resource relations |  [optional] |
+
+
+
